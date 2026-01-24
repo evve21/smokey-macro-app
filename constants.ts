@@ -1,5 +1,6 @@
 
 import { Ingredient, FruitPack, AddOn, BestSeller } from './types';
+import bpm from "@/images/bpm.png";
 
 /**
  * Static data for ingredients and preset mapping.
@@ -59,7 +60,16 @@ export const FRUIT_PACKS: FruitPack[] = [
   { id: 'tropical-dawn', name: 'Tropical Dawn', description: '🍍 Pineapple, 🥭 Mango, 🍈 Soursop', items: [{ fruitId: 'pineapple', weight: 100 }, { fruitId: 'mango', weight: 70 }, { fruitId: 'soursop', weight: 80 }], image: 'https://images.unsplash.com/photo-1623065422902-30a2ad299dd4?auto=format&fit=crop&w=300&q=80' },
   { id: 'super-berries', name: 'Super Berries', description: '🫐 Blueberry, 🍓 Strawberry, 🍇 Blackberry + 🍌 Banana', items: [{ fruitId: 'blueberry', weight: 35 }, { fruitId: 'strawberry', weight: 30 }, { fruitId: 'blackberry', weight: 20 }, { fruitId: 'banana', weight: 90 }], image: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=300&q=80' },
   { id: 'super-berries-no-banana', name: 'Super Berries (No Banana)', description: '🫐 Blueberry, 🍓 Strawberry, 🍇 Blackberry', items: [{ fruitId: 'blueberry', weight: 35 }, { fruitId: 'strawberry', weight: 30 }, { fruitId: 'blackberry', weight: 20 }], image: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=300&q=80' },
-  { id: 'bpm', name: 'BPM', description: '🍑 Peach, 🥭 Mango + 🍌 Banana', items: [{ fruitId: 'peach', weight: 50 }, { fruitId: 'mango', weight: 70 }, { fruitId: 'banana', weight: 90 }], image: 'https://i.ibb.co/p66B9N0R/DALL-E-2025-02-12-18-09-54-A-vibrant-comic-book-style-poster-for-a-smoothie-called-THE-B-P-M-Ban.webp' },
+  { id:  id: "bpm",
+    name: "BPM",
+    description: "🍑 Peach, 🥭 Mango + 🍌 Banana",
+    items: [
+      { fruitId: "peach", weight: 50 },
+      { fruitId: "mango", weight: 70 },
+      { fruitId: "banana", weight: 90 },
+    ],
+    image: bpm,
+' },
   { id: 'bpm-no-banana', name: 'BPM (No Banana)', description: '🍑 Peach, 🥭 Mango', items: [{ fruitId: 'peach', weight: 50 }, { fruitId: 'mango', weight: 70 }], image: 'https://i.ibb.co/p66B9N0R/DALL-E-2025-02-12-18-09-54-A-vibrant-comic-book-style-poster-for-a-smoothie-called-THE-B-P-M-Ban.webp' },
   { id: 'triple-b', name: 'Triple B', description: '🫐 Blueberry, 🍠 Beetroot + 🍌 Banana', items: [{ fruitId: 'blueberry', weight: 50 }, { fruitId: 'beetroot', weight: 50 }, { fruitId: 'banana', weight: 90 }], image: 'https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?auto=format&fit=crop&w=300&q=80' },
   { id: 'triple-b-no-banana', name: 'Triple B (No Banana)', description: '🫐 Blueberry, 🍠 Beetroot', items: [{ fruitId: 'blueberry', weight: 50 }, { fruitId: 'beetroot', weight: 50 }], image: 'https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?auto=format&fit=crop&w=300&q=80' },
