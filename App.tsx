@@ -547,4 +547,8 @@ const SummaryCard: React.FC<{ nut: NutritionValues, stateToUse: any, title: stri
   );
 };
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> e38b72e (initial commit: Vite React project setup)

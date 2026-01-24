@@ -27,6 +27,10 @@ export interface FruitPack {
   proteinMultiplier?: number;
   tag?: string;
   image?: string;
+<<<<<<< HEAD
+=======
+  price?: string; // New field for poster pricing
+>>>>>>> e38b72e (initial commit: Vite React project setup)
 }
 
 export interface NutritionValues {
