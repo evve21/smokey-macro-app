@@ -1,7 +1,6 @@
 import { Ingredient, FruitPack, AddOn, BestSeller } from "./types";
 import { SmoothieCup } from "./components/SmoothieCup";
-import tropicThunderImg from "@/images/tropic-thunder.png";
-import bpm from "@/images/bpm.png";
+import bananaImg from "./images/gorilla.png";
 
 /**
  * Static data for ingredients and preset mapping.
@@ -172,7 +171,7 @@ export const FRUIT_PACKS: FruitPack[] = [
       { fruitId: "mango", weight: 70 },
       { fruitId: "banana", weight: 90 },
     ],
-    image: "",
+    image: bananaImg,
   },
   {
     id: "tropic-thunder",
@@ -185,7 +184,8 @@ export const FRUIT_PACKS: FruitPack[] = [
       { fruitId: "soursop", weight: 80 },
       { fruitId: "mango", weight: 70 },
     ],
-    image: tropicThunderImg,
+    image:
+      "https://images.unsplash.com/photo-1623065422902-30a2ad299dd4?auto=format&fit=crop&w=300&q=80",
   },
   {
     id: "tropical-dawn",
@@ -233,7 +233,8 @@ export const FRUIT_PACKS: FruitPack[] = [
       { fruitId: "mango", weight: 70 },
       { fruitId: "banana", weight: 90 },
     ],
-    image: bpm,
+    image:
+      "https://images.unsplash.com/photo-1623065422902-30a2ad299dd4?auto=format&fit=crop&w=300&q=80",
   },
   {
     id: "bpm-no-banana",
